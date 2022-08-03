@@ -508,16 +508,19 @@ a{
     resize: 47px;
 }
 .contact .right form .button button{
-    width: 100%;
-    height: 100%;
-    border: 9px solid crimson;
-    background: crimson;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 500;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: all 0.3s ease;
+     color: #fff;
+     display: block;
+     width: 160px!important;
+     height: 45px;
+     outline: none;
+     font-size: 18px;
+     font-weight: 500;
+     border-radius: 6px;
+     cursor: pointer;
+     flex-wrap: nowrap;
+     background: crimson;
+     border: 2px solid crimson;
+     transition: all 0.3s ease;
 }
 .contact .right form .button button:hover{
     color: crimson;
