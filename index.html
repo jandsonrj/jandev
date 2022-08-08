@@ -238,8 +238,17 @@
         </div><!--column left-->
         <div class="column right">
             <div class="text">Mensagem</div>
-            <form action="https://formsubmit.co/jandson1512@gmail.com" target="_blank" method="POST">
-                <div class="fields">
+            <form action="https://api.staticforms.xyz/submit" method="POST" class="card">
+                <input type="hidden" name="accessKey" value="73b3786c-4657-4797-bb1c-14498593ad8a">
+                <input type="hidden" name="redirectTo" value="https://jandsonrj.github.io/jandev/">        
+               
+               <script>
+                function Enviado(){
+                    alert("Enviado com sucesso!");
+                    }
+               </script>
+                
+                   <div class="fields">
                     <div class="field name">
                         <input type="text" placeholder="Nome" required>
                     </div>
@@ -255,7 +264,7 @@
                         <textarea cols="30" rows="10" placeholder="Escreva suas dúvidas aqui..." required></textarea>
                     </div>
                     <div class="button">
-                        <button type="submit">Enviar</button>
+                        <button type="submit" onclick="Enviado()" value="Exibir Alert">Enviar</button>
                     </div>
                 </div>
             </form>
