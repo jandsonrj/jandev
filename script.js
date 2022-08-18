@@ -42,18 +42,6 @@ $(document).ready(function(){
         backSpeed: 60,
         loop: true
     });
-    var typed = new Typed(".wpp", {
-        strings:["Ir para Whatsapp"],
-        typeSpeed:100,
-        backSpeed:80,
-        loop:true
-     });
-     var typed = new Typed(".lkd", {
-        strings:["Ir para LinkedIn"],
-        typeSpeed:100,
-        backSpeed:80,
-        loop:true
-     });
      
     // owl carousel script
     $('.carousel').owlCarousel({
