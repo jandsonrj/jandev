@@ -180,7 +180,7 @@ section .title::after{
     padding: 5px;
     transform: translateX(-50%);
 }
-.about, .services, .skills, .teams, .contact, footer{
+.about, .services, .skills, .project, .contact, footer{
     font-family: 'Ubuntu', sans-serif;
 }
 .about .about-content,
@@ -238,18 +238,18 @@ section .title::after{
 }
 
 /*  sessão de serviços  */
-.services, .teams{
+.services, .project{
     background: #111;
     color: #fff;
 }
 .services .title::before,
-.teams .title::before{
+.project .title::before{
     background: #fff;
 }
 .services .title::after,
-.teams .title::after{
+.project .title::after{
     background: #111;
-    content: "Que oferecemos";
+    content: "Que ofereço";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -362,24 +362,24 @@ section .title::after{
     width: 55%;
 }
 
-/* sessão equipe */
-.teams .title::after{
-    content: "Especializada";
+/* sessão projetos */
+.project .title::after{
+    content: "Projetos";
 }
-.teams .carousel .card{
+.project .carousel .card{
     background: #222;
     border-radius: 6px;
     padding: 20px 35px; 
     text-align: center;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover{
+.project .carousel .card:hover{
     background: crimson;
 }
 a{
     color: white;
 }
-.teams .carousel .card img{
+.project .carousel .card img{
     width: 150px;
     height: 150px;
     object-fit: cover;
@@ -387,20 +387,20 @@ a{
     border: 5px solid crimson;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover img{
+.project .carousel .card:hover img{
     border-color: rgba(63, 255, 10, 0.937);
 }
-.teams .carousel .card .box{
+.project .carousel .card .box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover .box{
+.project .carousel .card:hover .box{
     transform: scale(1.05);
 }
-.teams .carousel .card .text{
+.project .carousel .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
@@ -428,7 +428,7 @@ a{
 
 /* sessão Contato */
 .contact .title::after{
-    content: "Fale conosco";
+    content: "Contate-me";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
@@ -540,7 +540,7 @@ a{
 /* sessão footer */
 footer{
     background: #111;
-    padding: 20px 23px;
+    padding: 15px 18px;
     color: #fff;
     text-align: center;
 }
@@ -550,6 +550,15 @@ footer span a{
 }
 footer span a:hover{
     text-decoration: underline;
+}
+footer a ion-icon{
+    padding-left: 20px;
+    color: #3b5998;
+    font-size: 22px;
+}
+footer b a ion-icon{
+    padding-left: 8px;
+    color: #fff;
 }
 
 
