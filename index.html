@@ -245,24 +245,8 @@
             <div class="text">Mensagem</div>
             <form action="https://api.staticforms.xyz/submit" method="POST" class="card">
                 <input type="hidden" name="accessKey" value="73b3786c-4657-4797-bb1c-14498593ad8a">
-                <input type="hidden" name="redirectTo" value="https://jandsonrj.github.io/jandev/">        
-        
-                <script>
-                    function Enviado() {
-                        // Get input values
-                        var nameInput = document.getElementsByName("name")[0].value;
-                        var emailInput = document.getElementsByName("email")[0].value;
-                        var messageInput = document.getElementsByName("message")[0].value;
-        
-                        // Check if all fields are filled
-                        if (nameInput !== "" && emailInput !== "" && messageInput !== "") {
-                            alert("Enviado com sucesso!");
-                        } else {
-                            alert("Por favor, preencha todos os campos antes de enviar.");
-                        }
-                    }
-                </script>
-        
+                <input type="hidden" name="redirectTo" value="https://jandsonrj.github.io/jandev/">
+                
                 <div class="fields">
                     <div class="field name">
                         <input type="text" name="name" placeholder="Digite seu nome" required>
@@ -276,11 +260,15 @@
                         <textarea name="message" cols="30" rows="10" placeholder="Descreva aqui o motivo do contato..." required></textarea>
                     </div>
                     <div class="button">
-                        <button type="button" onclick="Enviado()">Enviar</button>
+                        <button type="submit">Enviar</button>
                     </div>
                 </div>
             </form>
-        </div>
+            <div id="confirmation-message" style="display: none;">
+                Formulário enviado com sucesso!
+            </div>
+            
+            
        </div>  
     </div>
 </section>
@@ -292,6 +280,13 @@
             <b><a href="https://github.com/jandsonrj" target="_blank"><ion-icon name="logo-github"></ion-icon></a></b>
     </footer>
 
+    <script>
+        $(document).ready(function () {
+            $('form').submit(function () {
+                $('#confirmation-message').fadeIn();
+            });
+        });
+    </script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
