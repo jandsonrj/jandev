@@ -77,9 +77,9 @@ $(document).ready(function () {
     });
 });
 
-// $('form').submit(function () {
-//     $('#confirmation-message').fadeIn();
-// });
+$('form').submit(function () {
+    $('#confirmation-message').fadeIn();
+});
 
 
 
