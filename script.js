@@ -401,6 +401,1671 @@ $('form').submit(function () {
 //     iniciarJogo();
 //   }
 // }
+// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }// // Função para iniciar o jogo
+// function iniciarJogo() {
+//   const chute = prompt("Tente adivinhar o número entre 1 e 100:");
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   const numeroChute = parseInt(chute);
+
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
+//   // Atualiza o contador de tentativas
+//   tentativas++;
+
+//   // Verifica se o jogador acertou o número
+//   if (numeroChute === numeroAleatorio) {
+//     alert("Parabéns! Você acertou em " + tentativas + " tentativas.");
+//   } else if (tentativas === maxTentativas) {
+//     alert("Fim de jogo. O número era " + numeroAleatorio);
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
+//   }
+// }
 
 // // Inicia o jogo
 // iniciarJogo();
