@@ -698,6 +698,10 @@ $('form').submit(function () {
 //     alert("Jogo encerrado. O número era " + numeroAleatorio);
 //     return;
 //   }
+//   } else {
+//     const dica = numeroChute > numeroAleatorio ? "menor" : "maior";
+//     alert("Tente novamente! O número é " + dica + " que " + numeroChute + ".");
+//     iniciarJogo();
 
 //   const numeroChute = parseInt(chute);
 
