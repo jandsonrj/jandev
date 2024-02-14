@@ -39,15 +39,15 @@ $(document).ready(function () {
     });
 
     // typing text animation script
-    var typed = new Typed(".typing", {
-        strings: ["Frontend Developer/>", "Suporte Técnico", "Freelancer"],
+    var typed = new Typed(".typing", 
+        strings: ["Engenheiro de Software", "Frontend Developer/>", "Suporte Técnico", "Freelancer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Frontend Developer/>", "Suporte Técnico", "Freelancer"],
+        strings: ["Engenheiro de Software", "Frontend Developer/>", "Suporte Técnico", "Freelancer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
