@@ -1971,3 +1971,5 @@ $('form').submit(function () {
 //     iniciarJogo();
 //   }
 // }
+
+// is comming
