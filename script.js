@@ -112,6 +112,13 @@ $('form').submit(function () {
 //     return;
 //   }
 
+//   // Verifica se o chute é um número válido
+//   if (isNaN(numeroChute)) {
+//     alert("Por favor, insira um número válido.");
+//     iniciarJogo();
+//     return;
+//   }
+
 //   // Atualiza o contador de tentativas
 //   tentativas++;
 
