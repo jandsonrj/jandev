@@ -103,6 +103,18 @@ $('form').submit(function () {
 //     return;
 //   }
 
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
+//   // Verifica se o jogador inseriu um número válido
+//   if (chute === null) {
+//     alert("Jogo encerrado. O número era " + numeroAleatorio);
+//     return;
+//   }
+
 //   const numeroChute = parseInt(chute);
 
 //   // Verifica se o chute é um número válido
